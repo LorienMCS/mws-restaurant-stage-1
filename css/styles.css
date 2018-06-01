@@ -160,6 +160,7 @@ nav h1 a {
   height: 60px;
   padding: 0 0 10;
   background-color: #3397DB;
+  display: flex;
   align-items: center;
 }
 
