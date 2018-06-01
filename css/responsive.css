@@ -5,6 +5,23 @@
   font-size: .7rem;
   }
 
+  .filter-options {
+    height: 120px;
+    flex-wrap: wrap;
+  }
+
+  .filter-options h2 {
+  font-size: 1.2rem;
+  }
+
+  .filter-options select {
+    height: 35px;
+    letter-spacing: 0;
+    margin: 5px;
+    padding: 0 2px;
+    width: 200px;
+  }
+
 }
 
 
