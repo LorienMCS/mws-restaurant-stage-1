@@ -91,18 +91,18 @@ footer {
 
 /* ====================== Navigation ====================== */
 
-nav {
+.nav {
   width: 100%;
   height: 80px;
   background-color: #252831;
-  text-align:center;
+  text-align: center;
 }
 
-nav h1 {
+.nav h1 {
   margin: auto;
 }
 
-nav h1 a {
+.nav h1 a {
   color: #fff;
   font-weight: 200;
   letter-spacing: 10px;
@@ -110,6 +110,7 @@ nav h1 a {
 }
 
 #breadcrumb {
+    text-align: left;
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
@@ -119,18 +120,20 @@ nav h1 a {
 
 /* Display list items side by side */
 #breadcrumb li {
-    display: inline;
+    display: inline-block;
 }
 
-/* Add a slash symbol (/) before/behind each list item */
-#breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
+/* Add a slash symbol (/) between each list item, using CSS only, per WAI-ARIA*/
+.slash {
+    padding: 5px 0 0 3px;
+    height: 8px;
+    border-left: 2px solid black;
+    transform: skew(-20deg);
 }
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
+    padding: 0 5px;
     color: #0275d8;
     text-decoration: none;
 }
