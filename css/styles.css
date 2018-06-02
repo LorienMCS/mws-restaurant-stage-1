@@ -287,8 +287,18 @@ footer {
 	width: 90%;
 }
 
-#restaurant-hours td {
-  color: black;
+#restaurant-hours caption {
+  text-align: left;
+  color: #d42613;
+  font-size: 1.1rem;
+}
+
+#restaurant-hours th {
+  text-align: left;
+}
+
+#restaurant-hours th, #restaurant-hours td {
+  padding: 5px 0 0 12px;
 }
 
 .restaurant-container,
