@@ -6,17 +6,15 @@
   }
 
   #neighborhoods-select,
-  #cuisines-select {
+  #cuisines-select,
+  .restaurants,
+  filter-options h2 {
     font-size: 1rem;
   }
 
   .filter-options {
     height: 120px;
     flex-wrap: wrap;
-  }
-
-  .filter-options h2 {
-  font-size: 1rem;
   }
 
   .filter-options select {
@@ -28,10 +26,10 @@
   }
 
   .restaurant-info {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 20px;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 
 
 }

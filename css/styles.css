@@ -187,6 +187,11 @@ footer {
 
 /* ====================== Restaurant Listing ====================== */
 
+.restaurants {
+  text-align: center;
+  color: #d42613;
+}
+
 #restaurants-list {
   display: grid;
   grid-template-columns: repeat(auto-fill,
@@ -267,6 +272,7 @@ footer {
 
 #restaurant-img {
 	width: 90%;
+  max-width: 100%;
 }
 
 #restaurant-address {
